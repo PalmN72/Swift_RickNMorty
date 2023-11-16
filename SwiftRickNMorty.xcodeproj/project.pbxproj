@@ -97,11 +97,13 @@
 		E97224122B05195D005ACDB1 /* SwiftRickNMorty */ = {
 			isa = PBXGroup;
 			children = (
-				E97224132B05195D005ACDB1 /* AppDelegate.swift */,
-				E97224152B05195D005ACDB1 /* SceneDelegate.swift */,
-				E97224172B05195D005ACDB1 /* ViewController.swift */,
-				E972241C2B05195E005ACDB1 /* Assets.xcassets */,
-				E972241E2B05195E005ACDB1 /* LaunchScreen.storyboard */,
+				E97224492B060BB0005ACDB1 /* Resources */,
+				E97224482B060BAB005ACDB1 /* Managers */,
+				E97224472B060B9C005ACDB1 /* APIClient */,
+				E97224462B060B90005ACDB1 /* ViewModels */,
+				E97224452B060B8A005ACDB1 /* Views */,
+				E97224442B060B80005ACDB1 /* Models */,
+				E97224432B060B68005ACDB1 /* Controllers */,
 				E97224212B05195E005ACDB1 /* Info.plist */,
 			);
 			path = SwiftRickNMorty;
@@ -122,6 +124,60 @@
 				E97224362B05195E005ACDB1 /* SwiftRickNMortyUITestsLaunchTests.swift */,
 			);
 			path = SwiftRickNMortyUITests;
+			sourceTree = "<group>";
+		};
+		E97224432B060B68005ACDB1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E97224172B05195D005ACDB1 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E97224442B060B80005ACDB1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E97224452B060B8A005ACDB1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E97224462B060B90005ACDB1 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E97224472B060B9C005ACDB1 /* APIClient */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = APIClient;
+			sourceTree = "<group>";
+		};
+		E97224482B060BAB005ACDB1 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		E97224492B060BB0005ACDB1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E972241C2B05195E005ACDB1 /* Assets.xcassets */,
+				E972241E2B05195E005ACDB1 /* LaunchScreen.storyboard */,
+				E97224132B05195D005ACDB1 /* AppDelegate.swift */,
+				E97224152B05195D005ACDB1 /* SceneDelegate.swift */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
