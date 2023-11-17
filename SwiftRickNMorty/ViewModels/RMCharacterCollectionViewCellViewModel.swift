@@ -22,7 +22,7 @@ final class RMCharacterCollectionViewCellViewModel {
         self.characterStatus = characterStatus
         self.characterImageUrl = characterImageUrl
     }
-     
+    
     public var characterStatusText: String {
         return "Status: \(characterStatus.text)"
     }
